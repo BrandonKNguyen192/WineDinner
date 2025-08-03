@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Klumper - Professional Chef & Food Stylist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg {
+            background-color: #2d3748; /* A simple, elegant dark background */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold font-playfair text-gray-900">TK</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition">About</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-gray-900 transition">Portfolio</a>
+                <a href="#events" class="text-gray-600 hover:text-gray-900 transition">Events</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-gray-900">About</a>
+            <a href="#portfolio" class="block py-2 text-gray-600 hover:text-gray-900">Portfolio</a>
+            <a href="#events" class="block py-2 text-gray-600 hover:text-gray-900">Events</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-gray-900">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-screen flex items-center justify-center text-white text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl md:text-7xl font-playfair font-bold mb-4">Timothy Klumper</h1>
+            <p class="text-xl md:text-2xl font-light">Professional Chef & Food Stylist</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+             <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-playfair font-bold mb-6 text-center">Biography</h2>
+                <div class="space-y-4 text-gray-600 leading-relaxed text-left">
+                    <p>Born in Orange County, California, Tim has dedicated over a decade to the culinary arts. His journey began with formal training through culinary school in Cypress, California. Tim's passion for cooking lies in making connections, nourishing the people he serves, and expressing his artistic side.</p>
+                    <p>Tim's career has seen him master vegetarian and vegan cuisine at Mead's Green Door, delve into authentic Italian dishes at Cucina Enoteca, and explore Japanese, Chinese, and Korean cuisines as a Kitchen Manager for Wolfgang Puck's WP24 at the Ritz-Carlton. He was also part of the opening team for Ardor by John Frasier at the Edition Hotel, where he elevated seasonal vegetables to be the star of the show.</p>
+                    <p>Most recently, Tim has transitioned to the role of Executive Private Chef in Beverly Hills, creating curated meals and memorable experiences for his clients through family dinners, staff meals, and seasonal menus for special events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-playfair font-bold text-center mb-12">Culinary Style</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio items without images -->
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center items-center text-center h-48">
+                    <h3 class="font-bold text-xl">Artistic Plating</h3>
+                    <p class="text-gray-600 mt-2">Visually stunning dishes where every element has a purpose.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center items-center text-center h-48">
+                    <h3 class="font-bold text-xl">Hearty Mains</h3>
+                    <p class="text-gray-600 mt-2">Comforting and flavorful main courses that are the star of the show.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center items-center text-center h-48">
+                    <h3 class="font-bold text-xl">Fresh Seafood</h3>
+                    <p class="text-gray-600 mt-2">Highlighting the delicate flavors of the freshest catches.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center items-center text-center h-48">
+                    <h3 class="font-bold text-xl">Italian Inspired</h3>
+                    <p class="text-gray-600 mt-2">Authentic and modern takes on classic Italian cuisine.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center items-center text-center h-48">
+                    <h3 class="font-bold text-xl">Seasonal Creations</h3>
+                     <p class="text-gray-600 mt-2">Menus driven by the best ingredients of the season.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center items-center text-center h-48">
+                    <h3 class="font-bold text-xl">Elegant Desserts</h3>
+                    <p class="text-gray-600 mt-2">Refined and delicious endings to a perfect meal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-playfair font-bold text-center mb-4">Upcoming Event</h2>
+            <p class="text-center text-gray-600 mb-12">A special collaboration with Mauritson Winery.</p>
+            
+            <div class="max-w-4xl mx-auto bg-gray-50 rounded-lg shadow-xl p-8 md:p-12">
+                <div class="text-center mb-10">
+                    <h3 class="text-3xl font-playfair font-bold text-gray-900">The Menu</h3>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold text-xl">Scallop Crudo</h4>
+                        <p class="text-gray-600">Citrus Vinaigrette, Cucumber, Basil Oil</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4 class="font-bold text-xl">"Sweet Corn" Agnolotti</h4>
+                        <p class="text-gray-600">Lemon Brown Butter and Crispy Prosciutto</p>
+                    </div>
+                    <hr>
+                     <div>
+                        <h4 class="font-bold text-xl">King Salmon with Pomodoro Crudo</h4>
+                        <p class="text-gray-600">Roasted Broccolini, Toasted Farro, Lemon Gremolata</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4 class="font-bold text-xl">Grilled Australian Lamb Chops with Amarena Cherry Jus</h4>
+                        <p class="text-gray-600">Glazed Carrots, Whipped Potatoes</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4 class="font-bold text-xl">Lemon Olive Oil Cake</h4>
+                        <p class="text-gray-600">with Crema Diplomatica and Seasonal Berries</p>
+                    </div>
+                </div>
+
+                <div class="mt-16 text-center mb-10">
+                    <h3 class="text-3xl font-playfair font-bold text-gray-900">The Wine Pairings</h3>
+                </div>
+                <div class="space-y-8 text-left">
+                    <div>
+                        <h4 class="font-bold text-xl">2023 Mauritson Sauvignon Blanc, Dry Creek</h4>
+                        <p class="text-gray-600 mt-2">A crisp and vibrant Sauvignon Blanc from Dry Creek Valley. It presents lively notes of grapefruit, lime, and passionfruit with a subtle hint of lemongrass. Its bright acidity and clean finish make it a perfect match for the delicate Scallop Crudo and the rich "Sweet Corn" Agnolotti.</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4 class="font-bold text-xl">2022 Charlie Clay Pinot Noir, Sonoma Coast</h4>
+                        <p class="text-gray-600 mt-2">An elegant and complex Pinot Noir from the cool Sonoma Coast. This wine offers beautiful aromas of red cherry and raspberry, layered with hints of forest floor and spice. Its silky texture and fine-grained tannins gracefully complement the King Salmon without overpowering it.</p>
+                    </div>
+                    <hr>
+                     <div>
+                        <h4 class="font-bold text-xl">2022 Rockpile Zinfandel, Rockpile Ridge</h4>
+                        <p class="text-gray-600 mt-2">A bold and structured Zinfandel from the renowned Rockpile appellation. Expect intense flavors of dark blackberry, plum, and black pepper. Its robust character and firm tannins stand up beautifully to the rich Grilled Australian Lamb Chops, while the wine's fruit notes echo the Amarena cherry jus.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-16 text-center">
+                    <h3 class="text-2xl font-playfair font-bold text-gray-900 mb-4">Event Details</h3>
+                    <p><span class="font-semibold">Date:</span> August 16, 2025</p>
+                    <p><span class="font-semibold">Time:</span> 6:00PM</p>
+                    <p><span class="font-semibold">Location:</span> Los Angeles, TBA</p>
+                    <p><span class="font-semibold">Price:</span> $165 per person (all taxes and gratuity included)</p>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <h3 class="text-2xl font-playfair font-bold text-gray-900 mb-4">How to Reserve Your Seat</h3>
+                    <p class="max-w-2xl mx-auto text-gray-600">To reserve your spot, please reply to the email invitation with the names of guests in your party and any dietary restrictions or allergies. A full payment of $165 is required to secure your reservation. The reservation deadline is August 2, 2025.</p>
+                    <a href="mailto:timothy.klumper.chef@example.com?subject=Reservation for Mauritson Winery Dinner" class="mt-6 inline-block bg-gray-800 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-700 transition">Reserve Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-playfair font-bold text-center mb-12">Get In Touch</h2>
+            <div class="max-w-lg mx-auto">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" name="name" id="name" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" name="email" id="email" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea name="message" id="message" rows="4" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full bg-gray-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Timothy Klumper. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+
+</body>
+</html>
+
